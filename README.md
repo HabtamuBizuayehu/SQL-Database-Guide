@@ -89,9 +89,8 @@ Integrating SQL with R for data science
 
 Using Quarto for automated, reproducible analytics reports
 
-
-✨ Author
-Habtamu Bizuayehu
-📍 Perth, Western Australia
-🔗 habtamuBizuayehu.com
-🔗 GitHub
+✨ **Author**\
+Habtamu Bizuayehu\
+📍 Perth, Western Australia\
+🔗 habtamuBizuayehu.com\
+🔗 GitHub\
