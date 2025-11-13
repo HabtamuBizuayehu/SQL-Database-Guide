@@ -24,14 +24,14 @@ It is designed to help analysts, data scientists, and students learn how to:
 ## 🧩 Repository Structure
 SQL_Data_Manipulation_Guide/
 │
-├── data/ # optional sample CSV or SQL datasets
-├── images/ # screenshots and figures used in the guide
-├── SQL_Data_Manipulation_Guide.qmd # main Quarto document
-├── SQL_Data_Manipulation.sql # plain-text SQL export of the PostgreSQL database
-├── README.md # project overview (this file)
-└── _quarto.yml # Quarto project configuration
+├── data/ # optional sample CSV or SQL datasets\
+├── images/ # screenshots and figures used in the guide\
+├── SQL_Data_Manipulation_Guide.qmd # main Quarto document\
+├── SQL_Data_Manipulation.sql # plain-text SQL export of the PostgreSQL database\
+├── README.md # project overview (this file)\
+└── _quarto.yml # Quarto project configuration\
 
----
+
 
 ## ⚙️ Requirements
 
@@ -44,20 +44,20 @@ SQL_Data_Manipulation_Guide/
 **R Packages:**
 ```r
 install.packages(c("DBI", "RPostgres", "dplyr", "ggplot2"))
-
+```
 🔌 Database Connection (R)
 
 This project uses environment variables for secure connection setup.
 Before rendering the Quarto file, create a .Renviron file in your project root:
-
+```r
 PGUSER=postgres
 PGPASSWORD=your_password
 PGHOST=localhost
 PGPORT=5432
 PGDATABASE=SQL_Data_Manipulation
-
+```
 Then in R / Quarto:
-
+```r
 library(DBI)
 library(RPostgres)
 con <- dbConnect(
@@ -68,7 +68,8 @@ con <- dbConnect(
   user     = Sys.getenv("PGUSER"),
   password = Sys.getenv("PGPASSWORD")
 )
-
+```
+📊 Key Features
 | Topic                       | Description                                 |
 | --------------------------- | ------------------------------------------- |
 | **Data Profiling**          | Completeness, min/max, and range checks     |
