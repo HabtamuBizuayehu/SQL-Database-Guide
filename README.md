@@ -93,4 +93,4 @@ Using Quarto for automated, reproducible analytics reports
 Habtamu Bizuayehu\
 📍 Perth, Western Australia\
 🔗 habtamuBizuayehu.com\
-🔗 GitHub\
+🔗 GitHub
