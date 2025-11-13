@@ -22,8 +22,8 @@ It is designed to help analysts, data scientists, and students learn how to:
 ---
 
 ## 🧩 Repository Structure
-SQL_Data_Manipulation_Guide/
-│
+SQL_Data_Manipulation_Guide\
+│\
 ├── data/ # optional sample CSV or SQL datasets\
 ├── images/ # screenshots and figures used in the guide\
 ├── SQL_Data_Manipulation_Guide.qmd # main Quarto document\
@@ -79,5 +79,19 @@ con <- dbConnect(
 | **Performance Tuning**      | Indexing, query plans, and optimization     |
 | **Integration**             | SQL and R visualizations combined in Quarto |
 
+📚 **Learning Focus**
+
+This project was developed for reproducible teaching and demonstration of:
+
+Data cleaning workflows in SQL
+
+Integrating SQL with R for data science
+
+Using Quarto for automated, reproducible analytics reports
 
 
+✨ Author
+Habtamu Bizuayehu
+📍 Perth, Western Australia
+🔗 habtamuBizuayehu.com
+🔗 GitHub
